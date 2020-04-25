@@ -2,6 +2,7 @@
 
 module.exports = function(environment) {
   let ENV = {
+    appName: "wedding",
     modulePrefix: "wedding",
     podModulePrefix: "wedding/routables",
     environment,
