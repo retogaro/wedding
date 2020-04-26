@@ -4,4 +4,8 @@ import Route from "@ember/routing/route";
 // JS: camelCase
 // Ruby: snake_case
 
-export default class IndexRoute extends Route {}
+export default class IndexRoute extends Route {
+  beforeModel() {
+    console.log("HELLO");
+  }
+}
