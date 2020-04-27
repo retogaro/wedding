@@ -33,7 +33,7 @@ section#rsvp {
     text-align: center;
   }
   h3 {
-    margin-top: 100px;
+    margin-top: 75px;
     font-size: 45px;
     width: 903px;
   }
@@ -51,6 +51,8 @@ section#rsvp {
   }
   .pictures {
     display: flex;
+    position: absolute;
+    padding-top: 50px;
     img {
       height: 250px;
     }
