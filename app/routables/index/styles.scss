@@ -30,9 +30,6 @@ section#rsvp {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  h3,
-  p {
     text-align: center;
   }
   h3 {
@@ -43,5 +40,13 @@ section#rsvp {
   p {
     width: 784px;
     font-size: 35px;
+    line-height: 120%;
+  }
+  button {
+    width: 205px;
+    height: 95px;
+    font-size: 60px;
+    color: #514f4f;
+    border: 4px solid;
   }
 }
