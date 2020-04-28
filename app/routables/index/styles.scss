@@ -33,7 +33,7 @@ section#rsvp {
     text-align: center;
   }
   h3 {
-    margin-top: 70px;
+    margin-top: 120px;
     font-size: 45px;
     width: 903px;
   }
@@ -48,6 +48,7 @@ section#rsvp {
     font-size: 60px;
     color: #514f4f;
     border: 4px solid;
+    margin-bottom: 40px;
   }
   .pictures {
     display: flex;
@@ -96,7 +97,7 @@ section#accommodation {
   text-align: center;
   h1 {
     font-size: 65px;
-    margin-top: 90px;
+    margin-top: 150px;
   }
   p {
     width: 784px;
@@ -109,17 +110,41 @@ section#accommodation {
     font-size: 60px;
     color: #514f4f;
     border: 4px solid;
-    margin-bottom: 90px;
+    margin-bottom: 150px;
   }
 }
 
 section#todo {
-  background-color: #d1ffcb;
   h1 {
     text-align: center;
     font-size: 65px;
+    padding: 150px 0px 50px 0px;
   }
   .topattraction {
-    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 200px;
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    li {
+      padding: 80px;
+    }
+  }
+}
+
+section#footer {
+  h1,
+  p {
+    text-align: center;
+  }
+  h1 {
+    background-color: #fddcdc;
+    line-height: 150%;
+    padding: 150px 350px;
+  }
+  p {
+    padding: 50px;
   }
 }
