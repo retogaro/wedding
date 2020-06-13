@@ -6,6 +6,13 @@ import Route from "@ember/routing/route";
 
 export default class IndexRoute extends Route {
   beforeModel() {
-    console.log("HELLO");
+    console.log("redirected to English");
+    this.transitionTo("en");
+  }
+  model() {
+    console.log("hello");
+  }
+  afterModel() {
+    console.log("goodbye");
   }
 }

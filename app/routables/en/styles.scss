@@ -35,7 +35,6 @@ section#rsvp {
   h3 {
     margin-top: 120px;
     font-size: 45px;
-    width: 903px;
   }
   p {
     width: 784px;
@@ -84,8 +83,28 @@ section#rsvp {
     .box {
       position: relative;
       z-index: 2;
+      border-radius: 30px;
       border: #979797 solid 2px;
       background: #fddcdc;
+      width: 1100px;
+      height: 600px;
+      h2 {
+        font-size: 70px;
+        margin-top: 60px;
+        text-align: center;
+      }
+      h3 {
+        font-size: 45px;
+        text-align: center;
+        margin: 30px 90px;
+      }
+      fieldsets {
+        font-size: 30px;
+        margin-left: 95px;
+      }
+      p {
+        margin-left: 156px;
+      }
     }
   }
 }
