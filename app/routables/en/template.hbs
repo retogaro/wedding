@@ -8,93 +8,50 @@
   </div>
 </section>
 
-
-
-<section id="rsvp">
-  <div class="blurb">
-    <h3>Please join us for an OPEN BAR,<br>oh and a Wedding!</h3>
-    <p>We are exstatic to request the pleasure of your company and celebrations of our marriage. Saturday, 25th September 2021.</p>
-    <button {{on "click" this.openModal}}>RSVP</button>
-  </div>
-  {{#if this.showModal}}
-    <div id="modal">
-      <div
-        class="overlay"
-        {{on "click" this.closeModal}}
-      >
-      </div>
-
-      <div class="box">
-        <h2>RSVP</h2>
-        <h3>We hope you can join us!<br>Please enter your name or email below to respond:</h3>
-        <fieldsets><label>Last name: </label><input
-            required
-            size="25"
-          ></fieldsets>
-        <p>or</p>
-        <fieldsets><label>email: </label><input
-            required
-            size="25"
-          ></fieldsets>
-      </div>
-    </div>
-  {{/if}}
-  <div class="pictures">
-    <img src="/assets/images/mia-and-reto-1.jpg">
-    <img src="/assets/images/mia-and-reto-3.jpg">
-    <img src="/assets/images/mia-and-reto-4.jpg">
-    <img src="/assets/images/mia-and-reto-7.jpg">
-    <img src="/assets/images/mia-and-reto-5.jpg">
-    <img src="/assets/images/mia-and-reto-6.jpg">
-    <img src="/assets/images/mia-and-reto-2.jpg">
-  </div>
-</section>
-
-
-<section id="info">
+<section id="row-one">
   <div class="left">
-    <ul>
-      <li>When?</li>
-      <li>Saturday, 25th September 2021</li>
-      <li>Ceremony: 14:00 - 15:00</li>
-      <li>Reception: 18:00 - Late</li>
-    </ul>
+    <h3>Please join us for an open bar, Oh and a wedding!</h3>
+    <p>We are exstatic to request the pleasure of your company at the ceremony and celebrations of our marriage.</p>
+    <a href="rsvp">RSVP></a>
   </div>
-  <div class="Right">
-    <ul>
-      <li>Where?</li>
-      <li>Shangri-la Hotel Chengdu</li>
-      <li>Address: 9 Binjiang Dong Road, Chengdu 610021, China</li>
-    </ul>
+  <div class="right">
+    <h4>When?</h4>
+    <h2>Saturday, 24th September 2022</h2>
+    <h4>Where?</h4>
+    <h2>Shangri-La Hotel Chengdu</h2>
   </div>
 </section>
 
-
-<section id="accommodation">
-  <h1>Accommodation</h1>
-  <p>Choosing a place can be hard, so ive put together a list of hotels that I recommend, and are the best able to assist with your stay in Chengdu.</p>
-  <button
-    type="#"
-    name="#"
-  >More Info</button>
-</section>
-
-
-<section id="todo">
-  <h1>Things to do</h1>
-  <div class="topattraction">
-    <ul>
-      <li>Dujiangyan Panda tour with optional volunteering</li>
-      <li>Kuanzhai Alley</li>
-      <li>Tai Koo Li</li>
-      <li>Private tour: Huanglongxi ancient town and country side trekking</li>
-      <li>Try one of many sichuan hot pot places</li>
-    </ul>
+<section id="row-two">
+  <div class="accommodation">
+    <img
+      src="/assets/images/accomm-background-image.png"
+      alt="Picture of Chengdu skyline"
+    >
+    <a href="#">Learn More ></a>
+  </div>
+  <div class="our-story">
+    <img
+      src="/assets/images/our-story-image.png"
+      alt=""
+    >
+    <a href="#">Learn More ></a>
   </div>
 </section>
 
+<section id="row-three">
+  <img
+    src="/assets/images/activities-background.png"
+    alt=""
+  >
+  <h2>Activities</h2>
+  <a href="#">Learn More ></a>
+</section>
+
+<section id="row-four">
+  <h2>Many of you are travelling across the globe to celebrate with us, and your presence means a hell of a lot. We hope you can make it and look forward to having a great time.</h2>
+</section>
 
 <section id="footer">
-  <h1>Many of you are travelling across the globe to celebrate with us, and your presence means a hell of a lot to us. We hope you can make it and look forward to havin' a great time.</h1>
-  <p>Website designed and created by Reto Garo. 2020.</p>
+  <p>Website designed and created by Reto Garo. Powered by Ember.</p>
 </section>
