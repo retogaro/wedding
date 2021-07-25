@@ -32,12 +32,15 @@ section#row-one {
     margin: 0px 10px 10px 0px;
     h3 {
       font-size: 40px;
+      padding: 0px 60px;
     }
     p {
       font-size: 27px;
+      padding: 0px 60px;
     }
     a {
       font-size: 46px;
+      padding: 0px 60px;
     }
   }
   .right {
@@ -66,23 +69,40 @@ section#row-two {
   justify-content: center;
   .accommodation {
     margin: 10px 10px 10px 0px;
+    img {
+      position: relative;
+    }
+    h2 {
+      position: absolute;
+    }
   }
+
   .our-story {
     margin: 10px 0px 10px 10px;
   }
 }
-
 section#row-three {
   display: flex;
   justify-content: center;
+  img {
+    position: absolute;
+  }
+  h2 {
+    position: relative;
+  }
+  a {
+    position: relative;
+  }
 }
 
 section#row-four {
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 section#footer {
   display: flex;
   justify-content: center;
+  position: relative;
 }
