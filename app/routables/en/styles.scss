@@ -20,11 +20,56 @@ section#hero {
 section#row-one {
   display: flex;
   justify-content: center;
+  .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fbfbfb;
+    width: 502px;
+    height: 502px;
+    margin: 0px 10px 10px 0px;
+    h3 {
+      font-size: 40px;
+    }
+    p {
+      font-size: 27px;
+    }
+    a {
+      font-size: 46px;
+    }
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fbfbfb;
+    width: 502px;
+    height: 502px;
+    margin: 0px 0px 10px 10px;
+    h2 {
+      font-size: 46px;
+      padding: 20px;
+    }
+    h4 {
+      padding: 20px;
+      font-size: 34px;
+    }
+  }
 }
 
 section#row-two {
   display: flex;
   justify-content: center;
+  .accommodation {
+    margin: 10px 10px 10px 0px;
+  }
+  .our-story {
+    margin: 10px 0px 10px 10px;
+  }
 }
 
 section#row-three {
